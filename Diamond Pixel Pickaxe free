@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Diamond Pixel Pickaxe"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Game"):WaitForChild("RemoteFunctions"):WaitForChild("PurchasePickaxe"):InvokeServer(unpack(args))
